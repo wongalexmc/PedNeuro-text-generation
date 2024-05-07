@@ -1,8 +1,8 @@
 // Assuming you're using Node.js and the @google/generative-ai library
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-// Replace with your actual API key and prompt reference (**store securely, not in code**)
-const API_KEY = process.env.API_KEY;  // Assuming environment variable for secure storage
+// Access API key from environment variable (assuming secure storage)
+const API_KEY = process.env.PEDIATRIC_NEURO_AI_API_KEY;
 const PROMPT_REFERENCE = process.env.PROMPT_REFERENCE;  // Assuming environment variable
 
 async function generateText(userInput) {
